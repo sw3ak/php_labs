@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор структуры и содержимого таблицы</title>
+</head>
+<body>
+<form action="1.php" method="GET">
+    <table>
+        <tr>
+            <td>Таблицы</td>
+            <td colspan="2">Отобразить</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>структуру</td>
+            <td>содержимое</td>
+        </tr>
+        <tr>
+            <td>
+                <label><input type="radio" name="table" value="sal" required> Продавцы (sal)</label>
+            </td>
+            <td>
+                <input type="checkbox" name="structure" value="1">
+            </td>
+            <td>
+                <input type="checkbox" name="content" value="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label><input type="radio" name="table" value="cust"> Покупатели (cust)</label>
+            </td>
+            <td>
+                <input type="checkbox" name="structure" value="1">
+            </td>
+            <td>
+                <input type="checkbox" name="content" value="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label><input type="radio" name="table" value="ord"> Заказы (ord)</label>
+            </td>
+            <td>
+                <input type="checkbox" name="structure" value="1">
+            </td>
+            <td>
+                <input type="checkbox" name="content" value="1">
+            </td>
+        </tr>
+    </table>
+    <button type="submit">Вывести</button>
+</form>
+</body>
+</html>
