@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+</head>
+<body>
+<form action="4lab.php" method="post">
+    <h3>Горизонтальное расположение текста:</h3>
+    <input type="radio" id="left" name="align" value="left" required>
+    <label for="left">Слева</label><br>
+
+    <input type="radio" id="center" name="align" value="center">
+    <label for="center">По центру</label><br>
+
+    <input type="radio" id="right" name="align" value="right">
+    <label for="right">Справа</label><br>
+
+    <h3>Вертикальное расположение текста:</h3>
+    <input type="checkbox" id="top" name="valign[]" value="top">
+    <label for="top">Сверху</label><br>
+
+    <input type="checkbox" id="middle" name="valign[]" value="middle">
+    <label for="middle">По центру</label><br>
+
+    <input type="checkbox" id="bottom" name="valign[]" value="bottom">
+    <label for="bottom">Снизу</label><br>
+
+    <input type="submit" value="Выполнить">
+</form>
+</body>
+</html>
